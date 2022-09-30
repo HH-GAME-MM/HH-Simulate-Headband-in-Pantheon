@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HH Simulate Headband in Pantheon
-// @version      0.1
+// @version      0.2
 // @description  Simulate wearing a Headband in Pantheon
 // @author       -MM-
 // @match        https://www.hentaiheroes.com/pantheon-pre-battle.html?id_opponent=*
@@ -16,5 +16,5 @@
     'use strict';
 
     let div = document.querySelector('#pre-battle #player-panel .fighter-stats .stat .carac-value div');
-    div.innerHTML = (parseFloat(div.innerHTML.replace(',','.').replace('K','')) * 1000) * 1.25;
+    div.innerHTML = parseFloat(div.innerHTML.replace(',','.').replace('K','')) * 1000 * 1.25;
 })();
