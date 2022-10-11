@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         HH Simulate Headband in Pantheon
-// @version      0.2
+// @version      0.3
 // @description  Simulate wearing a Headband in Pantheon
 // @author       -MM-
 // @match        https://www.hentaiheroes.com/pantheon-pre-battle.html?id_opponent=*
+// @match        https://nutaku.haremheroes.com/pantheon-pre-battle.html?id_opponent=*
 // @run-at       document-end
 // @namespace    https://github.com/HH-GAME-MM/HH-Simulate-Headband-in-Pantheon
 // @updateURL    https://github.com/HH-GAME-MM/HH-Simulate-Headband-in-Pantheon/raw/main/HH-Simulate-Headband-in-Pantheon.user.js
