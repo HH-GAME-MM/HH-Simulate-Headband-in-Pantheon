@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HH Simulate Headband in Pantheon
-// @version      0.5
+// @version      0.6
 // @description  Simulate wearing a Headband in Pantheon
 // @author       -MM-
 // @match        https://*.hentaiheroes.com/pantheon-pre-battle.html?id_opponent=*
@@ -19,4 +19,13 @@
     'use strict';
 
     hero_data.damage *= 1.25;
+
+    setTimeout(function() {
+        let span = document.querySelector('.pantheon-team-panel.player-panel .player_stats #stats-damage');
+        if(span != null)
+        {
+            span.setAttribute('style', 'color:rgb(255, 47, 47);');
+            span.innerHTML = number_format_lang(hero_data.damage, 0);
+        }
+    }, 1);
 })();
