@@ -2,7 +2,7 @@
 
 Simulate wearing a Headband in Pantheon (Hentai Heroes game)
 
-Supported games: HH.com, Nutaku, CxH, PsH
+Supported games: HH.com, Nutaku, CxH, PsH, GH
 
 ## Windows / Mac OS - Installation instructions:
 1. Install [TamperMonkey](https://www.tampermonkey.net) browser extension (or your userscript extension of choice e.g. Greasemonkey)
