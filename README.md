@@ -1,6 +1,10 @@
 # HH Simulate Headband in Pantheon
 
-Simulate wearing a Headband in Pantheon (Hentai Heroes game)
+Simulate wearing a Headband in Pantheon (Hentai Heroes game).
+
+Works with:
+- [HH++ BDSM version](https://github.com/zoop0kemon/hh-plus-plus)
+- [Rena's Battle Simulator](https://github.com/rena-jp/hh-battle-simulator-v4)
 
 Supported games: HH.com, Nutaku, CxH, PsH, GH
 
